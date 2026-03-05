@@ -1,0 +1,43 @@
+# CCG-CFG-TTS: Cross-modal Consistent Guided CFG for Emotional TTS
+# Core dependencies (CosyVoice2 + CFG modifications)
+
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# --- Core (CosyVoice2) ---
+torch>=2.3.1
+torchaudio>=2.3.1
+numpy
+conformer==0.3.2
+diffusers==0.27.2
+HyperPyYAML==1.2.2
+inflect==7.3.1
+modelscope>=1.15.0
+onnxruntime-gpu==1.18.0; sys_platform == 'linux'
+onnxruntime==1.18.0; sys_platform == 'darwin' or sys_platform == 'windows'
+openai-whisper==20231117
+transformers>=4.40.1
+WeTextProcessing==1.0.3
+soundfile==0.12.1
+rich>=13.7.1
+tqdm
+
+# --- Evaluation: Whisper WER ---
+whisperx
+
+# --- Evaluation: emotion2vec ---
+funasr
+
+# --- Evaluation: DNSMOS ---
+torchmetrics[audio]
+librosa>=0.10.2
+
+# --- Evaluation: NISQA (install separately, see tools/setup_eval_tools.sh) ---
+pandas
+pyyaml
+
+# --- Evaluation: UTMOS (install separately, see tools/setup_eval_tools.sh) ---
+pytorch-lightning
+
+# --- Training (optional) ---
+deepspeed>=0.14.2; sys_platform == 'linux'
+tensorboard>=2.14.0
