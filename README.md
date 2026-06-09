@@ -145,4 +145,4 @@ This project builds upon:
 
 ## License
 
-This codebase is released under the Apache License 2.0. Third-party components retain their original licenses.
+This codebase is released under the NTUitive license. Third-party components retain their original licenses.
