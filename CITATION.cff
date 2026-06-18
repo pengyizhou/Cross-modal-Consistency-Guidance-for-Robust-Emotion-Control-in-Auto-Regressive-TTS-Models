@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Cross-modal Consistency Guidance for Robust Emotion Control in Auto-Regressive TTS Models"
+version: 1.0.0
+doi: 10.5281/zenodo.20741107
+date-released: 2026-06-18
+url: "https://github.com/pengyizhou/Cross-modal-Consistency-Guidance-for-Robust-Emotion-Control-in-Auto-Regressive-TTS-Models"
+authors:
+  - family-names: Peng
+    given-names: Yizhou
+  - family-names: Ma
+    given-names: Yukun
+  - family-names: Zhang
+    given-names: Chong
+  - family-names: Chao
+    given-names: Yi-Wen
+  - family-names: Ni
+    given-names: Chongjia
+  - family-names: Ma
+    given-names: Bin
+  - family-names: Chng
+    given-names: Eng Siong
+preferred-citation:
+  type: conference-paper
+  title: "Cross-modal Consistency Guidance for Robust Emotion Control in Auto-Regressive TTS Models"
+  authors:
+    - family-names: Peng
+      given-names: Yizhou
+    - family-names: Ma
+      given-names: Yukun
+    - family-names: Zhang
+      given-names: Chong
+    - family-names: Chao
+      given-names: Yi-Wen
+    - family-names: Ni
+      given-names: Chongjia
+    - family-names: Ma
+      given-names: Bin
+    - family-names: Chng
+      given-names: Eng Siong
+  conference:
+    name: "Interspeech 2026"
+  year: 2026
+  url: "https://arxiv.org/abs/2510.13293"
+  doi: 10.48550/arXiv.2510.13293

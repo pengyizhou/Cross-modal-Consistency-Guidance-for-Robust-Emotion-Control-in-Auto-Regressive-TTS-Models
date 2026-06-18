@@ -3,6 +3,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2510.13293-b31b1b.svg)](https://arxiv.org/abs/2510.13293)
 [![Demo Page](https://img.shields.io/badge/🎤%20Demo-Page-blue)](https://pengyizhou.github.io/Emotional_tts_demo/)
 [![Interspeech 2026](https://img.shields.io/badge/Interspeech-2026-4CAF50?logo=academia)](https://arxiv.org/abs/2510.13293)
+[![DOI](https://zenodo.org/badge/1173425478.svg)](https://doi.org/10.5281/zenodo.20741107)
 
 This repository contains the official code for **CCG-CFG-TTS**, a framework for improving emotional expressiveness in text-to-speech (TTS) synthesis. The approach combines two complementary techniques applied to [CosyVoice2](https://github.com/FunAudioLLM/CosyVoice):
 
