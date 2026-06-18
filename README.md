@@ -1,5 +1,9 @@
 # CCG-CFG-TTS: Cross-modal Consistent Guided Classifier-Free Guidance for Emotional Text-to-Speech
 
+[![arXiv](https://img.shields.io/badge/arXiv-2510.13293-b31b1b.svg)](https://arxiv.org/abs/2510.13293)
+[![Demo Page](https://img.shields.io/badge/🎤%20Demo-Page-blue)](https://pengyizhou.github.io/Emotional_tts_demo/)
+[![Interspeech 2026](https://img.shields.io/badge/Interspeech-2026-4CAF50?logo=academia)](https://arxiv.org/abs/2510.13293)
+
 This repository contains the official code for **CCG-CFG-TTS**, a framework for improving emotional expressiveness in text-to-speech (TTS) synthesis. The approach combines two complementary techniques applied to [CosyVoice2](https://github.com/FunAudioLLM/CosyVoice):
 
 1. **Classifier-Free Guidance (CFG) at inference time** — steers generation toward a target emotion by contrasting conditional and unconditional paths, requiring no additional fine-tuning.
@@ -124,10 +128,15 @@ bash tools/setup_eval_tools.sh
 If you find this work useful, please cite:
 
 ```bibtex
-@article{ccgcfgtts2025,
-  title={CCG-CFG-TTS: Cross-modal Consistent Guided Classifier-Free Guidance for Emotional Text-to-Speech},
-  author={Anonymous},
-  year={2025}
+@inproceedings{peng2026ccgcfgtts,
+  title={Cross-modal Consistency Guidance for Robust Emotion Control in Auto-Regressive TTS Models},
+  author={Peng, Yizhou and Ma, Yukun and Zhang, Chong and Chao, Yi-Wen and Ni, Chongjia and Ma, Bin and Chng, Eng Siong},
+  booktitle={Proceedings of Interspeech 2026},
+  year={2026},
+  eprint={2510.13293},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  doi={10.48550/arXiv.2510.13293}
 }
 ```
 
